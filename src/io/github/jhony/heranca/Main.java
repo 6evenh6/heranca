@@ -3,7 +3,7 @@ package io.github.jhony.heranca;
 public class Main {
     public static void main(String[] args) {
         Panda panda = new Panda();
-        Hipopotamo hipopotamo = new Hipopotamo();
+        Hipopotamo hipopotamo = new Hipopotamo("Hipopotamojão");
 
         panda.setNome("Pangatinha");
         panda.setIdade(23);
